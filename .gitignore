@@ -1,0 +1,34 @@
+# Binaries
+ultrafinder
+ultrafinder.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output files
+*.txt
+*.json
+!go.mod
+!go.sum
+
+# Test files
+*_test.go
+coverage.out
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug
+debug/
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
